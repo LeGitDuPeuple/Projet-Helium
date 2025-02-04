@@ -1,0 +1,48 @@
+.footer-container {
+    display: flex;
+    color: white;
+    background: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .footer-gauche{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 20%;
+        
+        .h2-container {
+          
+            h2 {
+                margin-right: 80%;
+            }
+        }
+
+        button {
+            margin: 10px 0;
+            background: rgba(65, 65, 210, 0.995);
+            color: white;
+            width: 150px;
+            height: 40px;
+            border-radius: 10px;
+            font-weight: bolder;
+            border: none;
+        }
+    }
+
+    .footer-droite{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+
+        h2 {
+            margin-left: 100px;
+        }
+        .img-containeur {
+            display: flex;
+            align-items: center;
+        }
+    }
+}

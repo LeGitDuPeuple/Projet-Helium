@@ -1,0 +1,43 @@
+.main {
+    display: flex;
+    margin: 20px;
+
+    .header-left{
+
+        display: flex;
+        flex-direction: column;
+        margin: auto 0;
+        justify-content: center;
+        width: 50%;
+        .header-left-container {
+            h1 {
+                font-size: 6em;
+                color: $color1;
+                margin:  auto 0;
+             
+               
+            }
+            
+            h3 {
+                margin: 0;
+                font-size: 2em ;
+                color: $color2;
+            }
+            
+            p{
+            color: white;
+            font-size: 0.8rem;
+            }
+        }
+    }
+
+    .header-right {
+        display: flex;
+        justify-content: space-around;
+        width: 48%;
+        img {
+
+            width: 100%;
+        }
+    }
+}

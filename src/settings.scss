@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+$color1: whitesmoke;
+$color2:  rgba(65, 65, 210, 0.995);
+
+body {
+    background: rgba(0, 0, 0, 0.856);
+    min-height: 100vh;
+    color: white;
+}
+
+ul {
+    list-style:  none;
+}
