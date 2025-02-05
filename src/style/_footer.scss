@@ -1,11 +1,10 @@
 .footer-container {
     display: flex;
     color: white;
-    background: black;
+    background:  rgb(17, 17, 17);
     border-radius: 10px;
     padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+   margin: 20px;
     .footer-gauche{
         display: flex;
         flex-direction: column;
@@ -36,13 +35,23 @@
         flex-direction: column;
         align-items: center;
         width: 80%;
-
-        h2 {
-            margin-left: 100px;
+         
+        .h2-container {
+            display: flex;
+            margin-bottom: 20px;
+            h2 {
+                
+            }
         }
         .img-containeur {
             display: flex;
             align-items: center;
+            
+            img {
+                width: 85px;
+                height: 70px;
+                margin: 20px 20px 20px 100px;
+            }
         }
     }
 }
